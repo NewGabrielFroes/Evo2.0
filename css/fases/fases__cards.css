@@ -1,0 +1,6 @@
+.fases__cards {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.fases__cardFase {
+    color: #fff;
+    width: 228.3px;
+    border-radius: 100px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    height: 54px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 54px;
+    text-align: center; 
+    vertical-align: middle;
+}

@@ -1,0 +1,7 @@
+.fases__cardImgMoeda {
+    width: 133px;
+    height: 132px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../img/moeda.png");
+}

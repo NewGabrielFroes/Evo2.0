@@ -1,0 +1,20 @@
+.fases__container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 116px;
+    padding-bottom: 88px;
+}
+
+.fases__container:not(.fases__container:nth-child(4)) {
+    border-bottom: 1px solid #692E7D;
+}
+
+.fases__container:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.fases__container:nth-child(even){
+    justify-content: left;
+}
+

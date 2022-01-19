@@ -1,0 +1,11 @@
+.fases__containerTitulo {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(40, 26, 200, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(11, 8, 56);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}

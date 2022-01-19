@@ -1,0 +1,5 @@
+.fases__containerConteudo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 113px;
+}

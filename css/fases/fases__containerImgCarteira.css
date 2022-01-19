@@ -1,0 +1,7 @@
+.fases__containerImgCarteira {
+    width: 242px;
+    height: 236px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../img/carteiraMaior.png");
+}

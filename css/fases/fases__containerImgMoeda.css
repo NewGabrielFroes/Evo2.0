@@ -1,0 +1,7 @@
+.fases__containerImgMoeda {
+    width: 218px;
+    height: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../img/moedaMaior.png");
+}

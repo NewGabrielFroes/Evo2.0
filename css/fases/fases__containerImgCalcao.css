@@ -1,0 +1,7 @@
+.fases__containerImgCalcao {
+    width: 270px;
+    height: 264px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../img/calcaoMaior.png");
+}

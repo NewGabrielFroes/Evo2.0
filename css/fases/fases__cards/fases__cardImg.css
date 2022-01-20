@@ -1,0 +1,30 @@
+.fases__cardImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fases__cardImg--calcao {
+    width: 173px;
+    height: 183px;
+    background-image: url("../../../img/calcao.png");
+}
+
+.fases__cardImg--moeda {
+    width: 133px;
+    height: 132px;
+    background-image: url("../../../img/moeda.png");
+}
+
+.fases__cardImg--carteira {
+    width: 188px;
+    height: 187px;
+    background-image: url("../../../img/carteira.png");
+}
+
+.fases__cardImg--sir {
+    width: 188px;
+    height: 187px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../../img/sir.png");
+}

@@ -8,23 +8,18 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fases/fases__titulo.css">
     <link rel="stylesheet" href="css/fases/fases__paragrafo.css">
-    <link rel="stylesheet" href="css/fases/fases__cards.css">
-    <link rel="stylesheet" href="css/fases/fases__card.css">
-    <link rel="stylesheet" href="css/fases/fases__cardTitulo.css">
-    <link rel="stylesheet" href="css/fases/fases__cardImgCalcao.css">
-    <link rel="stylesheet" href="css/fases/fases__cardImgMoeda.css">
-    <link rel="stylesheet" href="css/fases/fases__cardImgCarteira.css">
-    <link rel="stylesheet" href="css/fases/fases__cardImgSir.css">
-    <link rel="stylesheet" href="css/fases/fases__cardFase.css">
-    <link rel="stylesheet" href="css/fases/fases__containers.css">
-    <link rel="stylesheet" href="css/fases/fases__container.css">
-    <link rel="stylesheet" href="css/fases/fases__containerConteudo.css">
-    <link rel="stylesheet" href="css/fases/fases__containerTitulo.css">
-    <link rel="stylesheet" href="css/fases/fases__containerParagrafo.css">
-    <link rel="stylesheet" href="css/fases/fases__containerImgCalcao.css">
-    <link rel="stylesheet" href="css/fases/fases__containerImgMoeda.css">
-    <link rel="stylesheet" href="css/fases/fases__containerImgCarteira.css">
-    <link rel="stylesheet" href="css/fases/fases__containerImgSir.css">
+    <link rel="stylesheet" href="css/fases/fases__cards/fases__cards.css">
+    <link rel="stylesheet" href="css/fases/fases__cards/fases__card.css">
+    <link rel="stylesheet" href="css/fases/fases__cards/fases__cardTitulo.css">
+    <link rel="stylesheet" href="css/fases/fases__cards/fases__cardImg.css">
+    <link rel="stylesheet" href="css/fases/fases__cards/fases__cardFase.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__containers.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__container.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__container--semBorda.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__containerConteudo.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__containerTitulo.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__containerParagrafo.css">
+    <link rel="stylesheet" href="css/fases/fases__containers/fases__containerImg.css">
     <title>Evo</title>
 </head>
 <body>
@@ -35,22 +30,22 @@
         <section class="fases__cards">
             <div class="fases__card">
                 <h3 class="fases__cardTitulo">Desenvolvimento Pessoal</h3>
-                <div class="fases__cardImgCalcao"></div>
+                <div class="fases__cardImg fases__cardImg--calcao"></div>
                 <h4 class="fases__cardFase">Fase 1</h4>
             </div>
             <div class="fases__card">
                 <h3 class="fases__cardTitulo">Desenvolvimento Profissional</h3>
-                <div class="fases__cardImgMoeda"></div>
+                <div class="fases__cardImg fases__cardImg--moeda"></div>
                 <h4 class="fases__cardFase">Fase 2</h4>
             </div>
             <div class="fases__card">
                 <h3 class="fases__cardTitulo">Educação Financeira</h3>
-                <div class="fases__cardImgCarteira"></div>
+                <div class="fases__cardImg fases__cardImg--carteira"></div>
                 <h4 class="fases__cardFase">Fase 3</h4>
             </div>
             <div class="fases__card">
                 <h3 class="fases__cardTitulo">Mercado Financeiro</h3>
-                <div class="fases__cardImgSir"></div>
+                <div class="fases__cardImg fases__cardImg--sir"></div>
                 <h4 class="fases__cardFase">Fase 4</h4>
             </div>
         </section>
@@ -58,34 +53,38 @@
             <div class="fases__container">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Desenvolvimento Pessoal</h3>
-                    <p class="fases__containerParagrafo">Busque suas habilidades, competências e talentos
-                    para potencializá-los ao máximo e ganhe o prêmio para virar um grande mestre investidor.</p>
+                    <p class="fases__containerParagrafo fases__containerParagrafo--dPessoal">
+                    Busque suas habilidades, competências e talentos para potencializá-los
+                    ao máximo e ganhe o prêmio para virar um grande mestre investidor.</p>
                 </div>
-                <div class="fases__containerImgCalcao"></div>
+                <div class="fases__containerImg fases__containerImg--calcao"></div>
             </div>
             <div class="fases__container">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Desenvolvimento Profissional</h3>
-                    <p class="fases__containerParagrafo">Construa uma carreira da forma mais eficaz possível
-                    garantindo uma evolução continuada. </p>
+                    <p class="fases__containerParagrafo fases__containerParagrafo--dProfissional">
+                    Construa uma carreira da forma mais eficaz possível garantindo uma evolução
+                    continuada. </p>
                 </div>
-                <div class="fases__containerImgMoeda"></div>
+                <div class="fases__containerImg fases__containerImg--moeda"></div>
             </div>
             <div class="fases__container">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Educação Financeira</h3>
-                    <p class="fases__containerParagrafo">Entramos em mais um desafio em sua jornada. Organize
+                    <p class="fases__containerParagrafo fases__containerParagrafo--eFinanceira">
+                    Entramos em mais um desafio em sua jornada. Organize
                     suas finanças para completar essa etapa para entrar no desafio final. </p>
                 </div>
-                <div class="fases__containerImgCarteira"></div>
+                <div class="fases__containerImg fases__containerImg--carteira"></div>
             </div>
             <div class="fases__container">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Mercado Financeiro</h3>
-                    <p class="fases__containerParagrafo">Agora você vai estar de frente ao maior desafio
-                    para se tornar um grande mestre. Vamos entender de vez o mercado financeiro. </p>
+                    <p class="fases__containerParagrafo fases__containerParagrafo--mFinanceiro">
+                    Agora você vai estar de frente ao maior desafio para se tornar um grande mestre.
+                    Vamos entender de vez o mercado financeiro. </p>
                 </div>
-                <div class="fases__containerImgSir"></div>
+                <div class="fases__containerImg fases__containerImg--sir"></div>
             </div>
         </section>
     </section>

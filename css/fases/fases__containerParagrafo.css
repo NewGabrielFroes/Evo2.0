@@ -25,9 +25,10 @@
 .fases__container:nth-child(3) > .fases__containerConteudo > .fases__containerParagrafo {
     width: 551px;
     height: 100px;
-    line-height: 30px;
 }
 
 .fases__container:nth-child(4) > .fases__containerConteudo > .fases__containerParagrafo {
-    background-color: blueviolet;
+    width: 461px;
+    height: 120px;
+    margin-right: 160px;
 }

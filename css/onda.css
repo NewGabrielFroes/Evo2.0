@@ -1,0 +1,8 @@
+.onda {
+    width: 98.7vw;
+    height: 99.2vh;
+    background-image: url("../img/onda.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

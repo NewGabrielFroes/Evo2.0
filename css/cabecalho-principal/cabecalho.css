@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
+
+/* CONFIG. GERAL */
+
+.container {
+ /*  border: solid 3px red;*/
+}
+.row {  
+ /*  border: solid 3px green;*/
+}
+
+.col-12 , .col-sm-12,  .col-md-5 , .col-lg-5 , .col-md-8  , .col-lg-8 , .col-3  , .col-md-7 , .col-lg-7{
+ /* border: solid 3px yellow; */
+}
+
+/* CONFIG. GERAL */
+
+/* Cabecalho Pagina Principal */
+.menu ul {
+    padding:0px;
+	margin:0px;
+	list-style:none;
+    
+    
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a {
+	padding: 1em 1em 1em 2em ;
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+
+.menu ul li a:hover {
+    color:#FD749B;
+    transition: 0.3s;
+    text-decoration: underline;
+    border: none;
+    transition: 0.3s;
+}
+
+
+.titulo-cabecalho{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 63px;
+    color: #FFFFFF;
+    padding: 1em 0 0.5em 2em ;
+}
+
+.subtitulo-cabecalho {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 1em 0 1em 4em;
+
+}
+.botao-cadastro {
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0.4em;
+    margin: 1em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    
+}
+
+.botao-cadastro:hover {
+    color:#FD749B;
+    border: 2px solid #FD749B;
+    transition: 0.3s;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.botao-saiba-mais{
+    border-radius: 100px;
+    color: #692E72;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 1em;
+    margin: 0 0 8em 5em;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    
+
+    
+}
+
+.botao-saiba-mais:hover {
+    color: #692E72;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+
+
+/* Cabecalho Pagina Principal*/
+
+/* Parte Bem-Vindo */
+
+.bem-vindo  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 65px;
+    background-image: linear-gradient(to bottom, #FD749B, #281AC8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    padding: 2em 0 0.5em 0;
+    
+}
+
+.paragrafo-bem-vindo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding: 1em 1em 0 0;
+}
+
+
+
+/* Parte Bem-Vindo  */
+
+/* Parte Como Trabalhamos */
+
+
+.titulo-como-trabalhamos {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2em;
+}
+.subtitulo-como-trabalhamos{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.caixa-trabalhamos {
+    background: #ffffff;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 300px;
+    height: 80%;
+    padding: 1em ;
+    margin: 3em 0 5em 0;
+
+}
+
+.titulo-caixa-trabalhamos{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 65px;
+    background-image: linear-gradient(to bottom, #FD749B, #281AC8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+}
+.texto-caixa-trabalhamos {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+
+
+.img-responsive {
+    width: 100%;
+}
+
+/* Parte Como Trabalhamos */
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+    .justify-content-flex-start  {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #responsividade-cabecalho {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    #responsividade-bem-vindo {
+        flex-direction: column-reverse;
+    }
+
+    .paragrafo-bem-vindo {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .titulo-cabecalho , .subtitulo-cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        
+    }
+
+
+    
+}
+
+
+
+/* RESPONSIVIDADE */

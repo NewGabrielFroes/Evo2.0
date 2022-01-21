@@ -1,0 +1,47 @@
+.sejaevo{
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+    
+}
+.sejaevo__titulo{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+}
+.sejaevo__info{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+.sejaevo__img__img{
+    height:187px;
+    margin: 2rem 0 2rem 0;
+    width:188px;
+}
+.sejaevo__fim{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 65px;
+    padding: 0 5rem 0 5rem;
+    text-align: center;
+
+}

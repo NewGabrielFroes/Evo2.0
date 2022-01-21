@@ -1,0 +1,40 @@
+.premio{
+    background-image:url(../../img/Slice\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+    height: 500px;
+    align-items: center;
+}
+.premio__cabecalho{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+    align-items: center;
+    height: 346px;
+    width:978px;
+
+    position: relative;
+    left: 257px;
+    top: 50px;
+}
+.premio__cabecalho__info{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    padding: 0 4rem 0 4rem;
+    text-align: justify;
+    width:60%;
+}
+.premio__cabecalho__img{
+    width: 40%;
+}
+.premio__cabecalho__img__img{
+    max-width: 264px;
+}

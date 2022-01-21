@@ -1,0 +1,23 @@
+.certificados{
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly;
+    padding: 0 2rem 154px 2rem;
+}
+.certificados__descricao{
+    color: #220F71;
+    font-family: Poppins;
+    font-style: normal;
+    height: 138px;
+    width: 302px;
+}
+.certificados__descricao__titulo{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+.certificados__descricao__info{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}

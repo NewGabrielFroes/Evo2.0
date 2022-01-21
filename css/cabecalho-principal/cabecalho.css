@@ -2,6 +2,12 @@
 
 /* CONFIG. GERAL */
 
+.fundo-roxo {
+    background-image: url('../../img/fundo-roxo.png');
+    background-size: contain;
+    background-repeat: round;
+}
+
 .container {
  /*  border: solid 3px red;*/
 }
@@ -13,6 +19,7 @@
  /* border: solid 3px yellow; */
 }
 
+
 /* CONFIG. GERAL */
 
 /* Cabecalho Pagina Principal */
@@ -20,8 +27,7 @@
     padding:0px;
 	margin:0px;
 	list-style:none;
-    
-    
+    display: flex;   
 }
 
 .menu ul li { display: inline; }
@@ -222,6 +228,27 @@
 
 /* RESPONSIVIDADE */
 
+
+@media screen and (min-width: 1854px) {
+    .fundo-roxo {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu ul {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .fundo-roxo {
+        background-size: cover;
+        background-repeat: repeat;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .justify-content-flex-start  {
         display: flex;
@@ -249,7 +276,6 @@
         display: flex;
         justify-content: center;
         padding: 1em;
-        
     }
 
 

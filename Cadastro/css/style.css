@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 597px;
+    height: 800px;
+    background: linear-gradient(184.99deg, #692E7D 20.33%, #302776 95.99%);
+    border-radius: 0 35px 0 0;
+    position: absolute;
+    top: -8px;
+    z-index: -1;
+
+}
+
+header {
+    position: relative;
+    margin-top: 8px;
+    height: 91px;
+    padding: 10px 0;
+    width: 786px;
+    background: #692E7D;
+    border-radius: 0 0 35px 0;
+}
+
+.cabecalho-menu {
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logo{
+    width: 95px;
+    height: 87px;
+    margin: 18px 30px 0 2rem;
+}
+
+.cabecalho-menu ul {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-menu ul li .mn-itens {
+    color: white;
+    transition: .4s;
+    font-size: 20px;
+
+}
+
+.cabecalho-menu ul li .mn-itens:hover {
+    background: #ffffff41;
+    padding: 5px 10px;
+    border-radius: 7px;
+    
+}
+
+.cabecalho-menu ul li .bt-cadastro {
+    padding: 10px 20px;
+    background-color: white;
+    color: #692E7D;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Iniciando a parte "Criar Conta" */
+
+.container-main {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 91px;
+    padding: 50px 45px;
+    border-radius: 35px 0 0 0;
+    width: 790px;
+    height: 700px;
+    background: white;
+}
+
+.container-main h2 {
+    position: absolute;
+    width: 300px;
+    height: 69px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Poppins' , sans-serif;
+    line-height: 64px;
+    color: #150035;
+}
+
+.container-main .dados {
+    position: absolute;
+    width: 300px;
+    height: 69px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins' , sans-serif;
+    line-height: 30px;
+    color: #150035;
+
+}
+
+.form-control {
+    height: 300px;
+  
+
+}
+
+#name {
+    padding: 0 30px;
+    position: absolute;
+    top: 140px;
+    width: 600px;
+    height: 50px;
+    background: rgba(175, 132, 186, 0.51);
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#email {
+    padding: 0 30px;
+    position: absolute;
+    top: 220px;
+    width: 600px;
+    height: 50px;
+    background: rgba(175, 132, 186, 0.51);
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+}
+
+#password {
+    padding: 0 30px;
+    position: absolute;
+    top: 300px;
+    width: 600px;
+    height: 50px;
+    background: rgba(175, 132, 186, 0.51);
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+}
+
+
+.checkbox-principal p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    top: 40px;
+}
+
+
+.novidades, #checkbox {
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+}
+
+.btn-cadastrar {
+    padding: 10px 35px;
+    background-color: #692E7D;
+    color:white;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;
+    position: relative;
+    top: 6em;
+    left: 13em;
+
+}
+
+/* BEM VINDOS */
+
+.conteudos .bemvindo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 70px 87px ;
+
+}
+
+.conteudos .p1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 0 87px ;
+    bottom: 30px;
+
+}
+
+.conteudos .p2 {
+    font-family: 'Poppins', sans-serif;
+    width: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 0 87px ;
+    bottom: 10px;
+
+}
+
+.elemento1 {
+    position: relative;
+    padding: 0 87px ;
+    top: 70px;
+}

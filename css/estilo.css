@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+
+.social{
+    width: 100%;
+    height: 17rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.onda{
+    position: absolute;
+    padding-bottom: 10em;
+    width: 100%;
+    max-width: 1420px;
+    z-index: -1;
+}
+
+.container-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1420px;
+}
+
+.rede{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.rede h2{
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.rede a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul-social{
+    margin: 10px 0;
+}
+
+.notebook{
+    width: 50%;
+    margin-top: 12rem;
+}
+
+.notebook img{
+    width: 450px;
+}
+
+.comece-agora{
+    /*PARA AUMENTAR A DISTANCIA ENTRE A FRASE E O BOTÃO só aumentar o WIDTH*/
+    width: 42%;
+    margin: 3.5rem auto 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comece-agora p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+}
+
+.btn-cadastrar{
+    outline: 0;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border: none;
+    border-radius: 45px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*Inicio do rodapé*/
+
+footer {
+    text-align: center;
+    background: conic-gradient(from 171.57deg at 47.36% 90.63%, #062170 0deg, #692E7D 85.02deg, #062170 360deg);
+    height: 412px;
+    margin-top: 20em;
+}
+
+.container__rodape{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.logo-evo {
+    width: 160px;
+    margin-top: 40px;
+}
+
+.txt-rodape{
+    width: 35%;
+    padding-left: 5rem;
+}
+
+.txt-rodape-1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    list-style: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Redes Sociais */
+
+.div-componentes-0{
+    width: 65%;
+    padding: 0 5rem;
+    margin-top: 20px;
+}
+
+.div-complete{
+    display: block;
+}
+
+/* Componentes */
+
+.div-componentes {
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.div-ul{
+    padding-top: 40px;
+}
+
+.div-componentes h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+}
+
+.conponentes{
+    margin: 40px;
+}
+
+.conponentes-p{
+    margin: 15px;
+}
+
+.ul-componentes li {
+    list-style: none;
+    text-align: center;
+}
+
+.ul-componentes li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.div-ul li a:hover {
+    background: #ffffff41;
+    padding: 2px 2px;
+    
+}
+
+/* Logos rodapé*/
+
+.img-rodape{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-rodape{
+    text-align: center;
+    vertical-align: middle;
+    width: 30%;
+}

@@ -223,7 +223,7 @@
 }
 
 .img-responsive-central {
-    width: 100%;
+    width: 120%;
     animation: float 4s linear infinite;
 }
 

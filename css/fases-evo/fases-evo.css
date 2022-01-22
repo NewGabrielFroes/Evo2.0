@@ -15,6 +15,12 @@
 
 /* CONFIG. GERAL */
 
+.fundo-roxo {
+    background-image: url('../../img/fundo-roxo.png');
+    background-size: contain;
+    background-repeat: round;
+}
+
 /* Header*/
 .menu ul {
     padding:0px;
@@ -40,6 +46,17 @@
    
 }
 
+.menu ul li .bt-cursos {
+    padding: 10px 20px;
+    background-color: white;
+    color: #692E7D;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 .menu ul li a:hover {
     color:#FD749B;
     transition: 0.3s;
@@ -47,8 +64,6 @@
     border: none;
     transition: 0.3s;
 }
-
-
 
 .botao-cadastro {
     color: #ffffff;

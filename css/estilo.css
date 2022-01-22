@@ -171,7 +171,9 @@ footer {
     text-align: center;
 }
 
-.ul-componentes li a {
+
+
+.ul-componentes li a, .li-cintia {
     list-style: none;
     text-decoration: none;
     font-size: 20px;

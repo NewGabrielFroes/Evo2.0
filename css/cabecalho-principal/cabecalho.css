@@ -8,6 +8,12 @@
     background-repeat: round;
 }
 
+.fundo-roxo2 {
+    background-image: url('../../img/fundo-roxo2.png');
+    background-size: cover;
+    height: fit-content;
+}
+
 .container {
  /*  border: solid 3px red;*/
 }
@@ -198,8 +204,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 65px;
+    font-size: 15px;
     background-image: linear-gradient(to bottom, #FD749B, #281AC8);
     background-clip: text;
     -webkit-text-fill-color: transparent;

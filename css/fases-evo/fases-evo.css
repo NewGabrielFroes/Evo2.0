@@ -65,10 +65,10 @@
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 60px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 200;
-    padding: 0.4em;
+    padding: 0.1em;
     margin: 1em;
     text-decoration: none;
     display: inline-block;

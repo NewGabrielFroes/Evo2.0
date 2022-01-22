@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/sejaevo/sejaevo.css">
     <link rel="stylesheet" href="css/certificados/certificados.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/animação/animate.css">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -78,7 +79,7 @@
     <!---- Cabecalho Pagina Principal  ---->
 
     <!---- Parte Bem-Vindo ---->
-    <div class="container " >
+    <div class="container " data-anime="bottom">
       <div class="row justify-content-center " id="responsividade-bem-vindo"  >
         <div class="col-12 col-sm-12  col-md-6 col-lg-6 d-flex align-items-center"  >
           <div class="row justify-content-center align-items-center "  >
@@ -108,7 +109,7 @@
 
     <!----  Parte Como Trabalhamos   ---->
     <section style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(157.1deg, #692E7D 28.39%, #2417BC 126.05%);">
-      <div class="container"  >
+      <div class="container"   data-anime="left">
         <div class="row justify-content-center" style="margin-top: 5em;" >
           <div class="col-12 col-sm-12 col-md-8 col-lg-8 " >
             <h1 class="titulo-como-trabalhamos ">Saiba  como trabalhamos</h1>
@@ -147,33 +148,33 @@
     <!----  Parte Como Trabalhamos   ---->
     
     <section class="fases">
-        <h2 class="fases__titulo">Você quer investir,<br>mas não sabe como?</h2>
-        <p class="fases__paragrafo">Nós preparamos <strong>4 fases</strong> para o seu desenvolvimento até
+        <h2 class="fases__titulo" data-anime="right">Você quer investir,<br>mas não sabe como?</h2>
+        <p class="fases__paragrafo"data-anime="left">Nós preparamos <strong>4 fases</strong> para o seu desenvolvimento até
         a entrada no mercado financeiro com <strong>os melhores cursos para você!</strong></p>
         <section class="fases__cards">
-            <div class="fases__card">
+            <div class="fases__card"data-anime="left">
                 <h3 class="fases__cardTitulo">Desenvolvimento Pessoal</h3>
                 <div class="fases__cardImg fases__cardImg--calcao"></div>
                 <a class="fases__cardFase" href="#fase1">Fase 1</a>
             </div>
-            <div class="fases__card">
+            <div class="fases__card" data-anime="left">
                 <h3 class="fases__cardTitulo">Desenvolvimento Profissional</h3>
                 <div class="fases__cardImg fases__cardImg--moeda"></div>
                 <a class="fases__cardFase" href="#fase2">Fase 2</a>
             </div>
-            <div class="fases__card">
+            <div class="fases__card"data-anime="left">
                 <h3 class="fases__cardTitulo">Educação Financeira</h3>
                 <div class="fases__cardImg fases__cardImg--carteira"></div>
                 <a class="fases__cardFase" href="#fase3">Fase 3</a>
             </div>
-            <div class="fases__card">
+            <div class="fases__card" data-anime="left">
                 <h3 class="fases__cardTitulo">Mercado Financeiro</h3>
                 <div class="fases__cardImg fases__cardImg--sir"></div>
                 <a class="fases__cardFase" href="#fase4">Fase 4</a>
             </div>
         </section>
         <section class="fases__containers">
-            <div class="fases__container" id="fase1">
+            <div class="fases__container" id="fase1" data-anime="right">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Desenvolvimento Pessoal</h3>
                     <p class="fases__containerParagrafo fases__containerParagrafo--dPessoal">
@@ -182,7 +183,7 @@
                 </div>
                 <div class="fases__containerImg fases__containerImg--calcao"></div>
             </div>
-            <div class="fases__container" id="fase2">
+            <div class="fases__container" id="fase2" data-anime="left">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Desenvolvimento Profissional</h3>
                     <p class="fases__containerParagrafo fases__containerParagrafo--dProfissional">
@@ -191,7 +192,7 @@
                 </div>
                 <div class="fases__containerImg fases__containerImg--moeda"></div>
             </div>
-            <div class="fases__container" id="fase3">
+            <div class="fases__container" id="fase3" data-anime="right">
                 <div class="fases__containerConteudo">
                     <h3 class="fases__containerTitulo">Educação Financeira</h3>
                     <p class="fases__containerParagrafo fases__containerParagrafo--eFinanceira">
@@ -200,8 +201,8 @@
                 </div>
                 <div class="fases__containerImg fases__containerImg--carteira"></div>
             </div>
-            <div class="fases__container" id="fase4">
-                <div class="fases__containerConteudo">
+            <div class="fases__container" id="fase4" data-anime="left">
+                <div class="fases__containerConteudo" >
                     <h3 class="fases__containerTitulo">Mercado Financeiro</h3>
                     <p class="fases__containerParagrafo fases__containerParagrafo--mFinanceiro">
                     Agora você vai estar de frente ao maior desafio para se tornar um grande mestre.
@@ -212,7 +213,7 @@
         </section>
     </section>
     <section class="premio">
-        <div class="premio__cabecalho">
+        <div class="premio__cabecalho" data-anime="bottom">
             <h4 class="premio__cabecalho__info">Após completar as 4 fases, você ganha uma formação da  Evo sobre Mercado Financeiro!</h4>
             <div class="premio__cabecalho__img">
                 <img class="premio__cabecalho__img__img" src="./img/trofeu.png" alt="Troféu de evolução.">
@@ -220,39 +221,39 @@
         </div>
     </section>
     <section class="certificados">
-        <div class="certificados__descricao">
+        <div class="certificados__descricao" data-anime="bottom">
             <h4 class="certificados__descricao__titulo">12 certificados</h4>
             <h5 class="certificados__descricao__info">para desenvolver suas competências profissionais e se destacar no mercado.</h5>
         </div>
-        <div class="certificados__descricao">
+        <div class="certificados__descricao" data-anime="bottom">
             <h4 class="certificados__descricao__titulo">+80 horas</h4>
             <h4 class="certificados__descricao__info">de conteúdos exclusivos sobre mercado financeiro e sofit skills.</h4>
         </div>
-        <div class="certificados__descricao">
+        <div class="certificados__descricao" data-anime="bottom">
             <h4 class="certificados__descricao__titulo">Investa Melhor</h4>
             <h4 class="certificados__descricao__info">Aprenda a investir melhor e organizar suas finanças.</h4>
         </div>
     </section>
     <section class="paraquem">
-        <div class="paraquem__info">
+        <div class="paraquem__info" data-anime="left">
             <h4 class="paraquem__info__titulo">Pra quem é o curso da Evo?</h4>
             <p class="paraquem__info__texto">Para todo o <b>público jovem</b> que tem interesse em <b>organizar suas finanças, aprender sobre investimentos</b> e <b>treinar suas competências</b> mais desenvolvidas no mercado de trabalho.</p>
         </div>
-        <div class="paraquem__img">
+        <div class="paraquem__img"data-anime="left">
             <img class="paraquem__img__img"src="./img/teste.png" alt="Pessoa sentada em um celular gigante com um notebook no colo um alto falante na frente e cinco estrelas acima dela.">
         </div>
     </section>
     <section class="sejaevo">
-        <h4 class="sejaevo__titulo">Do básico ao Intermediário.</h4>
-        <h4 class="sejaevo__info">Um jeito leve e lúdico de aprender sobre finanças.</h4>
-        <div class="sejaevo__img">
+        <h4 class="sejaevo__titulo"data-anime="bottom">Do básico ao Intermediário.</h4>
+        <h4 class="sejaevo__info" data-anime="bottom">Um jeito leve e lúdico de aprender sobre finanças.</h4>
+        <div class="sejaevo__img"data-anime="bottom">
             <img class="sejaevo__img__img"src="./img/calcao.png" alt="Animação de calção arregaçando os bolsos.">
             <img class="sejaevo__img__img"src="./img/moeda.pokemon.png" alt="Animação de moeda usando óculos e sorrindo.">
             <img class="sejaevo__img__img"src="./img/carteira.png" alt="Animação de carteira com dinheiro e olhos zangados">
             <img class="sejaevo__img__img"src="./img/sir.png" alt="Animação de senhor correndo com mala de dinheiro.">
             <img class="sejaevo__img__img"src="./img/trofeu.png" alt="Troféu de evolução.">
         </div>
-        <h4 class="sejaevo__fim">Descubra como organizar suas finanças e evoluir no mercado. Seja Evo!</h4>
+        <h4 class="sejaevo__fim"data-anime="bottom">Descubra como organizar suas finanças e evoluir no mercado. Seja Evo!</h4>
     </section>
     
      <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -352,6 +353,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/animeScroll.js"> </script>
     
 </body>
 </html>

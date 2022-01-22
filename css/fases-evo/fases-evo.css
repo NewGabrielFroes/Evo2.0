@@ -55,7 +55,6 @@
 .menu ul li a:hover {
     color:#FD749B;
     transition: 0.3s;
-    text-decoration: underline;
     border: none;
     transition: 0.3s;
 }
@@ -83,7 +82,6 @@
     color:#FD749B;
     border: 2px solid #FD749B;
     transition: 0.3s;
-    text-decoration: underline;
     transition: 0.3s;
 }
 

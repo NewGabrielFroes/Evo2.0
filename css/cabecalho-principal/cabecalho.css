@@ -52,6 +52,7 @@
     text-decoration: underline;
     border: none;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 
@@ -83,7 +84,7 @@
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 200;
-    padding: 0.4em;
+    padding: 0.1em;
     margin: 1em;
     text-decoration: none;
     display: inline-block;
@@ -98,8 +99,9 @@
     color:#FD749B;
     border: 2px solid #FD749B;
     transition: 0.3s;
-    text-decoration: underline;
-    transition: 0.3s;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center; 
 
 }
 
@@ -124,9 +126,7 @@
     color: #692E72;
     transition: 0.3s;
     text-decoration: none;
-    transition: .5s ease all;
 }
-
 
 
 /* Cabecalho Pagina Principal*/
@@ -217,9 +217,6 @@
     text-align: center;
     color: #333333;
 }
-
-
-
 
 .img-responsive {
     width: 100%;

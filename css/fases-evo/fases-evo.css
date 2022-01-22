@@ -17,7 +17,11 @@
 
 .fundo-roxo {
     background-size: contain;
-    background-repeat: round;
+    background-repeat: round;    
+	position:absolute;
+	width: 100%;    
+	max-width: 1420px;
+    	z-index: -1;
 }
 
 /* Header*/

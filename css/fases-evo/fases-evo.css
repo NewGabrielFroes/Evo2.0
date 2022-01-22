@@ -33,21 +33,22 @@
 	text-decoration: none;
     font-family: Poppins;
     font-style: normal;
-    font-weight: normal;
-    
+    font-weight: normal;   
     font-size: 20px;
     line-height: 30px;
    
 }
 
 .menu ul li .bt-cursos {
-    padding: 10px 20px;
+	outline: 0;
+    padding: 8px 20px;
     background-color: white;
     color: #692E7D;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
+	font-style: none;
 }
 
 
@@ -65,7 +66,7 @@
     box-sizing: border-box;
     border-radius: 60px;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     padding: 0.4em;
     margin: 1em;
